@@ -136,7 +136,7 @@ export default (options = {}) => {
   }
 
   if (total < 0 || total > 9) {
-    throw new Error('You cannot set the sum of passenger count 1 to 9.')
+    throw new Error('You need to set set the sum of passenger count 1 to 9.')
   }
 
   // NOTE: Set device type to iPhone
