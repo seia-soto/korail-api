@@ -5,7 +5,8 @@
   "author": "Seia-Soto <seia@outlook.kr>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "release": "standard-version"
   },
   "dependencies": {
     "ajv": "^8.2.0",
